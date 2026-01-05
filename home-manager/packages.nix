@@ -5,7 +5,6 @@
     bluetui
     btop
     fastfetch
-    git
     kitty
     nautilus
     neovim
@@ -15,10 +14,7 @@
     tree
     ttyper
     uv
-    vim
-    wget
     yazi
     zellij
-    zsh
   ];
 }
