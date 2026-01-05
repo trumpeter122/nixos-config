@@ -5,10 +5,10 @@
     bluetui
     btop
     fastfetch
+    kdePackages.okular
     kitty
     nautilus
     neovim
-    okular
     peaclock
     ranger
     starship
