@@ -4,6 +4,5 @@
     git
     vim
     wget
-    zsh
   ];
 }

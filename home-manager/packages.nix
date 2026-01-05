@@ -8,6 +8,7 @@
     kitty
     nautilus
     neovim
+    okular
     peaclock
     ranger
     starship
