@@ -10,8 +10,17 @@ git fetch origin
 git reset --hard origin/main
 git clean -fd
 
-read -rp 'User name: ' USERNAME
-read -rp 'Host name: ' HOSTNAME
+USERNAME="${SUDO_USER:-$(id -un)}"
+HOSTNAME="$(hostname)"
+echo "Detected user: ${USERNAME}"
+echo "Detected host: ${HOSTNAME}"
+read -rp "Use these values? [Y/n] " CONFIRM
+case "${CONFIRM}" in
+  [nN]|[nN][oO])
+    read -rp 'User name: ' USERNAME
+    read -rp 'Host name: ' HOSTNAME
+    ;;
+esac
 
 # Replace placeholders across all Nix files.
 find . -type f -name '*.nix' -print0 |
