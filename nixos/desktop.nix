@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   services.xserver.enable = true;
-  services.displayManager.lemurs.enable = true;
+  services.displayManager.emptty.enable = true;
 
   programs.niri.enable = true;
   services.desktopManager.gnome.enable = true;
