@@ -17,6 +17,7 @@
     tree
     ttyper
     uv
+    vscodium
     yazi
     zellij
   ];
