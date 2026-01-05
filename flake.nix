@@ -66,17 +66,17 @@
 
       # Standalone home-manager configuration entrypoint
       # Available through 'home-manager --flake .#__USERNAME__@__HOSTNAME__'
-      homeConfigurations = {
-        # FIXME replace with your username@hostname
-        "__USERNAME__@__HOSTNAME__" = home-manager.lib.homeManagerConfiguration {
-          # Home-manager requires 'pkgs' instance
-          pkgs = nixpkgs.legacyPackages.x86_64-linux; # FIXME replace x86_64-linux with your architecure
-          extraSpecialArgs = { inherit inputs; };
-          modules = [
-            # > Our main home-manager configuration file <
-            ./home-manager/home.nix
-          ];
-        };
-      };
+      # homeConfigurations = {
+      #   # FIXME replace with your username@hostname
+      #   "__USERNAME__@__HOSTNAME__" = home-manager.lib.homeManagerConfiguration {
+      #     # Home-manager requires 'pkgs' instance
+      #     pkgs = nixpkgs.legacyPackages.x86_64-linux; # FIXME replace x86_64-linux with your architecure
+      #     extraSpecialArgs = { inherit inputs; };
+      #     modules = [
+      #       # > Our main home-manager configuration file <
+      #       ./home-manager/home.nix
+      #     ];
+      #   };
+      # };
     };
 }
