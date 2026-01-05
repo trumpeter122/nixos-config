@@ -7,6 +7,7 @@
     fastfetch
     kdePackages.okular
     kitty
+    libreoffice
     nautilus
     neovim
     peaclock
