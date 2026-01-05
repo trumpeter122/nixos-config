@@ -10,6 +10,7 @@
     libreoffice
     nautilus
     neovim
+    onlyoffice-desktopeditors
     peaclock
     ranger
     starship
