@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   services.xserver.enable = true;
-  services.displayManager.emptty.enable = true;
+  services.displayManager.cosmic-greeter.enable = true;
 
   programs.niri.enable = true;
   services.desktopManager.gnome.enable = true;
