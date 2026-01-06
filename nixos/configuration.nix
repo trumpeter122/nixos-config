@@ -58,6 +58,7 @@
 
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
+    backupFileExtension = "backup";
     users = {
       # Import your home-manager configuration
       __USERNAME__ = import ../home-manager/home.nix;
