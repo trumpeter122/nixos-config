@@ -5,6 +5,7 @@
     bluetui
     btop
     fastfetch
+    fzf
     kdePackages.okular
     kitty
     libreoffice
@@ -20,5 +21,7 @@
     vscodium
     yazi
     zellij
+    zinit
+    zoxide
   ];
 }
