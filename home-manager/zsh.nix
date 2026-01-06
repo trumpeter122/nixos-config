@@ -3,7 +3,7 @@
   programs.zsh = {
     enable = true;
     enableCompletion = false;
-    initExtra = ''
+    initContent = ''
       # Shell integrations
       eval "$(fzf --zsh)"
       eval "$(zoxide init --cmd cd zsh)"
