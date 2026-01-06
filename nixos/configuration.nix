@@ -26,10 +26,7 @@
     ./programs.nix
     ./services.nix
     ./system-packages.nix
-    ./networking.nix
-    ./time.nix
-    ./desktop.nix
-    ./fonts.nix
+    ./desktop
 
     inputs.home-manager.nixosModules.home-manager
   ];
