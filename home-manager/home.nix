@@ -21,6 +21,7 @@
     ./packages.nix
     ./noctalia.nix
     ./zsh.nix
+    ./alacritty.nix
   ];
 
   nixpkgs = {
