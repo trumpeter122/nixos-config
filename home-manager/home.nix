@@ -20,6 +20,7 @@
     # ./nvim.nix
     ./packages.nix
     ./noctalia.nix
+    ./zsh.nix
   ];
 
   nixpkgs = {
