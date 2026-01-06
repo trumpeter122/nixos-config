@@ -1,5 +1,7 @@
 { ... }:
 {
+  home.file.".sh_aliases".source = ./sh_aliases;
+
   programs.zsh = {
     enable = true;
     enableCompletion = false;
@@ -62,8 +64,8 @@
       # end
 
       # Aliases
-      if [ -f ~/.bash_aliases ]; then
-        . ~/.bash_aliases
+      if [ -f ~/.sh_aliases ]; then
+        . ~/.sh_aliases
       fi
       alias ls='ls --color'
       alias c='clear'
