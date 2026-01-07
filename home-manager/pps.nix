@@ -36,5 +36,4 @@ let
 in
 {
   home.packages = dev ++ gui ++ terminal;
-  programs.steam.enable = true;
 }

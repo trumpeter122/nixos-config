@@ -23,9 +23,7 @@
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
     ./users.nix
-    ./programs.nix
-    ./services.nix
-    ./system-packages.nix
+    ./pps.nix
     ./desktop
 
     inputs.home-manager.nixosModules.home-manager
