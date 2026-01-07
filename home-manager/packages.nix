@@ -17,7 +17,7 @@
     peaclock
     python3
     ranger
-    rust
+    rustc
     starship
     tree
     ttyper
