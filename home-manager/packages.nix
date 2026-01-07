@@ -4,6 +4,7 @@
     alacritty
     bluetui
     btop
+    cargo
     fastfetch
     fzf
     kdePackages.okular
@@ -13,7 +14,9 @@
     neovim
     onlyoffice-desktopeditors
     peaclock
+    python
     ranger
+    rust
     starship
     tree
     ttyper
