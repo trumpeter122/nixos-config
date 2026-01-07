@@ -9,12 +9,13 @@
     fzf
     kdePackages.okular
     kitty
+    lazygit
     libreoffice
     nautilus
     neovim
     onlyoffice-desktopeditors
     peaclock
-    python
+    python3
     ranger
     rust
     starship
