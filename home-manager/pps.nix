@@ -18,7 +18,7 @@ let
     rustc
 
     sqlite
-    texlive
+    # texlive
     typst
 
   ];
