@@ -24,6 +24,7 @@ let
   ];
   gui = with pkgs; [
     libreoffice
+    kdePackages.kdenlive
     kdePackages.okular
     nautilus
     onlyoffice-desktopeditors
@@ -48,6 +49,11 @@ let
     zellij
     zinit
     zoxide
+
+    # Experimental
+    xdg-ninja
+    chezmoi
+    stow
   ];
 in
 {
