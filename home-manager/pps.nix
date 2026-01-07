@@ -28,6 +28,7 @@ let
     kdePackages.okular
     nautilus
     onlyoffice-desktopeditors
+    vial
     vscodium
     zathura
     zotero
