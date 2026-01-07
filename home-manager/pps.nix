@@ -1,11 +1,26 @@
 { pkgs, ... }:
 let
   dev = with pkgs; [
-    cargo
+    # Git
+    koji
     lazygit
+
+    # JS/TS
+    nodejs
+    pnpm
+
+    # Python
     python3
-    rustc
     uv
+
+    # Rust
+    cargo
+    rustc
+
+    sqlite
+    texlive
+    typst
+
   ];
   gui = with pkgs; [
     libreoffice
@@ -13,6 +28,7 @@ let
     nautilus
     onlyoffice-desktopeditors
     vscodium
+    zathura
     zotero
   ];
   terminal = with pkgs; [
