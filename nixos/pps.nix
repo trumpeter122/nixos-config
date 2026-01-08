@@ -21,4 +21,7 @@ in
 
   services.v2raya.enable = true;
   services.udev.packages = [ vialUdevRules ];
+
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = [ "users" ];
 }
