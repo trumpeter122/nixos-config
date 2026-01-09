@@ -29,6 +29,8 @@ let
     nautilus
     onlyoffice-desktopeditors
     vial
+    wechat
+    wemeet
     vscodium
     zathura
     zotero
