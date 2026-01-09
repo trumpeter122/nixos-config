@@ -31,6 +31,7 @@ let
     vial
     wechat
     wemeet
+    vlc
     vscodium
     zathura
     zotero
@@ -40,9 +41,11 @@ let
     bluetui
     btop
     fastfetch
+    ffmpeg
     fzf
     kitty
     neovim
+    pandoc
     peaclock
     ranger
     starship
