@@ -21,7 +21,6 @@
     ./pps.nix
     ./noctalia.nix
     ./zsh.nix
-    ./alacritty
   ];
 
   nixpkgs = {
