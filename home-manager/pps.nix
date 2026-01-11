@@ -29,6 +29,7 @@ let
     nautilus
     onlyoffice-desktopeditors
     rpi-imager
+    syncthing
     vial
     wechat
     wemeet
