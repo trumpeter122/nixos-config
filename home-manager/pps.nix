@@ -28,6 +28,7 @@ let
     kdePackages.okular
     nautilus
     onlyoffice-desktopeditors
+    rpi-imager
     vial
     wechat
     wemeet
@@ -51,6 +52,8 @@ let
     starship
     tree
     ttyper
+    wl-clipboard
+    xclip
     yazi
     zellij
     zinit
