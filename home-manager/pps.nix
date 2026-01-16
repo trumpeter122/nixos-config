@@ -32,7 +32,7 @@ let
     syncthing
     vial
     # wechat
-    wemeet
+    # wemeet
     vlc
     vscodium
     zathura
