@@ -11,9 +11,9 @@
     # Also see the 'unstable-packages' overlay at 'overlays/default.nix'.
 
     # Home manager
-    # home-manager.url = "github:nix-community/home-manager/release-25.11";
+    home-manager.url = "gitee:nix-community/home-manager/release-25.11";
     # home-manager.url = "git+https://mirrors.tuna.tsinghua.edu.cn/git/nix-community/home-manager.git?ref=release-25.11&shallow=1";
-    home-manager.url = "git+https://git.nju.edu.cn/nix-community/home-manager.git";
+    # home-manager.url = "git+https://git.nju.edu.cn/nix-community/home-manager.git";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # Extras
