@@ -1,1 +1,1 @@
-/home-manager/** filter=git-crypt diff=git-crypt
+# /home-manager/** filter=git-crypt diff=git-crypt
