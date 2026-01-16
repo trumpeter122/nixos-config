@@ -31,7 +31,7 @@ let
     rpi-imager
     syncthing
     vial
-    wechat
+    # wechat
     wemeet
     vlc
     vscodium
